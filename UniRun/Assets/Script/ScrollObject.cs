@@ -6,10 +6,10 @@ public class ScrollObject : MonoBehaviour
     public GameManager gameManager;
     private void Update()
     {
-        //if(gameManager.isGameOVer)
-        //{
-        //    return;
-        //}
+        if(gameManager.isGameOVer)
+        {
+            return; // 게임 오버 상태에서는 스크롤을 멈춤
+        }
         transform.Translate(Vector3.left * speed * Time.deltaTime);
     }
 

@@ -657,7 +657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  gameManager: {fileID: 0}
+  gameManager: {fileID: 1008737118}
 --- !u!114 &871601895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -963,7 +963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  gameManager: {fileID: 0}
+  gameManager: {fileID: 1008737118}
 --- !u!212 &1381479653
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1309,7 +1309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  gameManager: {fileID: 0}
+  gameManager: {fileID: 1008737118}
 --- !u!1 &1598575936
 GameObject:
   m_ObjectHideFlags: 0
@@ -1638,7 +1638,7 @@ MonoBehaviour:
   jumpForce: 4
   jumpCountMax: 2
   jumpCount: 0
-  gameManager: {fileID: 0}
+  gameManager: {fileID: 1008737118}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

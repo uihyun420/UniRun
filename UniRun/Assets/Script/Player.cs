@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
 
     private bool isGrounded = true;
     private bool isDead = false;
-
+    
     public GameManager gameManager;
     private void Awake() 
     {
